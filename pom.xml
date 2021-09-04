@@ -10,7 +10,8 @@
 	</parent>
 	<groupId>net.codejava</groupId>
 	<artifactId>SpringBootRegistrationLogin</artifactId>
-	<version>1.0</version>
+	<version>0.0.5-SNAPSHOT</version>
+	<packaging>war</packaging>
 	<name>SpringBootRegistrationLogin</name>
 	<description>Demo registration (sign up) and Login (Sign in)</description>
 
