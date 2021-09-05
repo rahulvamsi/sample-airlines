@@ -11,14 +11,13 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-@RestController
-@RequestMapping("/home")
+@Controller
 public class AppController {
 
 	@Autowired
 	private UserRepository userRepo;
 	
-	@RequestMapping("")
+	@RequestMapping("/home")
 	public String viewHomePage() {
 		return "index";
 	}
