@@ -17,7 +17,7 @@ public class AppController {
 	@Autowired
 	private UserRepository userRepo;
 	
-	@RequestMapping("/home")
+	@RequestMapping(value="/home")
 	public String viewHomePage() {
 		return "index";
 	}
