@@ -41,11 +41,12 @@ public class UserRepositoryTests {
 	}
 
 	
-	  @Test public void testFindByEmail() { 
-		  String email = "name@codejava.net"; 
-	  User user = repo.findByEmail(email);
-	  
-	  assertThat(user.getEmail()).isEqualTo(email); }
+	/*
+	 * @Test public void testFindByEmail() { String email = "name@codejava.net";
+	 * User user = repo.findByEmail(email);
+	 * 
+	 * assertThat(user.getEmail()).isEqualTo(email); }
+	 */
 	 
 
 }
