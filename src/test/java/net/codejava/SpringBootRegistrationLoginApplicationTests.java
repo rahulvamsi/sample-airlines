@@ -10,4 +10,11 @@ class SpringBootRegistrationLoginApplicationTests {
 	void contextLoads() {
 	}
 
+    
+    
+
 }
+
+
+
+
